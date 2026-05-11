@@ -1,0 +1,19 @@
+[project]
+name = "healthflow-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.100.0",
+    "faiss-cpu>=1.13.2",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.18",
+    "langchain-community>=0.4.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "pyspark>=4.1.1",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+]
